@@ -61,12 +61,12 @@ source venv/bin/activate
 ### ⚙️ **Environment Variables**
 
 Configure the following variables in your hosting environment (Render, Railway, or local .env):
-- Variable	                  Description
-- TELEGRAM_TOKEN	            Token provided by @BotFather
-- GOOGLE_CREDENTIALS_JSON	   Full string content of the Google Service Account JSON
-- ID_PASTA_DRIVE	            Google Drive target folder ID for CSV exports
-- NOME_DA_PLANILHA	         Target Google Spreadsheet title
-- PORT	                     Port for the health-check web server (default: 10000)
+Variable	                  Description
+TELEGRAM_TOKEN	            Token provided by @BotFather
+GOOGLE_CREDENTIALS_JSON	   Full string content of the Google Service Account JSON
+ID_PASTA_DRIVE	            Google Drive target folder ID for CSV exports
+NOME_DA_PLANILHA	         Target Google Spreadsheet title
+PORT	                     Port for the health-check web server (default: 10000)
 
 ---
 
