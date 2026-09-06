@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 # --- CONFIGURAÇÕES ---
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', 'SEU_TOKEN_AQUI')
-NOME_DA_PLANILHA = 'Vendas da Loja de Bebidas'
+NOME_DA_PLANILHA = os.environ.get('NOME_DA_PLANILHA', 'Registro de Vendas')
 ID_PASTA_DRIVE = os.environ.get('ID_PASTA_DRIVE', 'SEU_ID_DRIVE_AQUI')
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
 
