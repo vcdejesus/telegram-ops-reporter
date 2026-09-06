@@ -28,9 +28,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- CONFIGURAÇÕES ---
-TELEGRAM_TOKEN = '8354821073:AAGC1E7x532uZIM_9B9mQsxfqSr_QKWjuu0' # COLOQUE SEU TOKEN AQUI NOVAMENTE
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', 'SEU_TOKEN_AQUI')
 NOME_DA_PLANILHA = 'Vendas da Loja de Bebidas'
-ID_PASTA_DRIVE = '1B1T-HkE-M4bCihxbfULjI2WclPhauDm'
+ID_PASTA_DRIVE = os.environ.get('ID_PASTA_DRIVE', 'SEU_ID_DRIVE_AQUI')
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
 
 app = Flask(__name__)
