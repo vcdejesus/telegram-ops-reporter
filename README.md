@@ -62,19 +62,19 @@ source venv/bin/activate
 
 Configure the following variables in your hosting environment (Render, Railway, or local .env):
 Variable	                  Description
-TELEGRAM_TOKEN	            Token provided by @BotFather
-GOOGLE_CREDENTIALS_JSON	   Full string content of the Google Service Account JSON
-ID_PASTA_DRIVE	            Google Drive target folder ID for CSV exports
-NOME_DA_PLANILHA	         Target Google Spreadsheet title
-PORT	                     Port for the health-check web server (default: 10000)
+-TELEGRAM_TOKEN	            Token provided by @BotFather
+-GOOGLE_CREDENTIALS_JSON	   Full string content of the Google Service Account JSON
+-ID_PASTA_DRIVE	            Google Drive target folder ID for CSV exports
+-NOME_DA_PLANILHA	         Target Google Spreadsheet title
+-PORT	                     Port for the health-check web server (default: 10000)
 
 ---
 
 ### 💬 **Bot Commands**
 
-- /start - Displays initial greeting and instructions.
-- /novavenda - Initiates the 4-step sales registration conversation flow.
-- /cancelar - Aborts the current transaction session.
+-/start - Displays initial greeting and instructions.
+-/novavenda - Initiates the 4-step sales registration conversation flow.
+-/cancelar - Aborts the current transaction session.
 
 ---
 
