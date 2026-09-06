@@ -40,18 +40,26 @@ Collecting field sales or operational entries usually suffers from friction and 
    - Google Drive API
 4. A Google Drive target folder ID and a target Google Sheet shared with the service account email.
 
+---
+
 ### Installation
 
 1. Clone the repository:
-```text
+
 git clone https://github.com/vcdejesus/telegram-ops-reporter.git
 cd telegram-ops-reporter
 
+---
+
 ### Create and activate a virtual environment:
+
 python -m venv venv
 source venv/bin/activate
 
+---
+
 ### ⚙️ **Environment Variables**
+
 Configure the following variables in your hosting environment (Render, Railway, or local .env):
 Variable	Description
 TELEGRAM_TOKEN	Token provided by @BotFather
@@ -60,10 +68,16 @@ ID_PASTA_DRIVE	Google Drive target folder ID for CSV exports
 NOME_DA_PLANILHA	Target Google Spreadsheet title
 PORT	Port for the health-check web server (default: 10000)
 
+---
+
 ### 💬 **Bot Commands**
+
 /start - Displays initial greeting and instructions.
 /novavenda - Initiates the 4-step sales registration conversation flow.
 /cancelar - Aborts the current transaction session.
 
+---
+
 ### 📄 **License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
