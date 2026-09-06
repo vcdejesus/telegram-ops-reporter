@@ -44,8 +44,8 @@ Collecting field sales or operational entries usually suffers from friction and 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vcdejesus/bot-vendas-telegram.git
-cd bot-vendas-telegram
+git clone https://github.com/vcdejesus/telegram-ops-reporter.git
+cd telegram-ops-reporter
 Create and activate a virtual environment:
 code
 Bash
@@ -55,7 +55,6 @@ Install required packages:
 code
 Bash
 pip install -r requirements.txt
-
 ⚙️ Environment Variables
 Configure the following variables in your hosting environment (Render, Railway, or local .env):
 Variable	Description
@@ -64,14 +63,9 @@ GOOGLE_CREDENTIALS_JSON	Full string content of the Google Service Account JSON
 ID_PASTA_DRIVE	Google Drive target folder ID for CSV exports
 NOME_DA_PLANILHA	Target Google Spreadsheet title
 PORT	Port for the health-check web server (default: 10000)
-
 💬 Bot Commands
 /start - Displays initial greeting and instructions.
 /novavenda - Initiates the 4-step sales registration conversation flow.
 /cancelar - Aborts the current transaction session.
-
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-code
-Code
-Salve essa versão no GitHub (Commit changes). Agora a documentação do seu projeto está no padrão dos melhores repositórios open-source.
